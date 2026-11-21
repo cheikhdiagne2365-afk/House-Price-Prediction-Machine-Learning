@@ -98,8 +98,8 @@ if st.button("Predict Price", disabled=st.session_state.is_disabled):
     
     if validate_area_size(rooms):
         if validate_dates(yr_built) and validate_dates(yr_renovated):
-                prediction = model.predict(input_data)[0]
-                st.success(f"Estimated House Price: ${prediction:,.2f}")
+            prediction = model.predict(input_data)[0]
+            st.success(f"Estimated House Price: ${prediction:,.2f}")
         else:
             st.error("One of the date fields has a value that is not within the allowed range (1900 to 2015).")    
     else:
