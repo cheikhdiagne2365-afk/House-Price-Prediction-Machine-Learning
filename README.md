@@ -54,7 +54,7 @@ Once Streamlit has been installed onto your computer, follow these steps to be a
      - Windows: Open the folder, right-click an empty space, and select Open in Terminal (Windows 11). On older versions, hold Shift, right-click, and select Open PowerShell window here or Open command window here.
      - MacOS: Right-click the desired folder in Finder and select New Terminal at Folder.
      - Linux: Open your file manager, right-click inside the folder, and select Open in Terminal.
-3. Once the terminal is open in the desired file, run this command to start the app:
+3. Once the terminal is open in the desired folder, run this command to start the app:
   ```
   streamlit run app.py
   ```
